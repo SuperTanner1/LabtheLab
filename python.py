@@ -1,2 +1,6 @@
 for i in range(3):
-    print("Hello World")
+    thought = input("Say your thoughts")
+    if thought.lower() == "hello":
+        print("normie")
+    else:
+        print("nah")
